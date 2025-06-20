@@ -25,7 +25,7 @@ bin/rails db:migrate
 
 ### 4. Create admin user (required for authentication)
 ```bash
-bin/rails runner "User.create!(email: 'admin@example.com', password: 'password')"
+bin/rails runner "User.create!(email_address: 'admin@example.com', password: 'password')"
 ```
 
 ### 5. Start the server
